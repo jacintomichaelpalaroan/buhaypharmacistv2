@@ -1,0 +1,66 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+.clear:after{
+	content:"";
+	display:block;
+	clear:both;
+}
+/*end of essential css, start of navbar css*/
+.navbar{
+	background-color: indigo;
+	font-family: 'Nunito', sans-serif;
+	font-weight: 700;
+	font-size: 15px;
+}
+.navbar img{
+	height: 20px;
+	width: 20px;
+}
+nav.navbar > div.navbar-collapse{
+	text-align: center;
+}
+/*end of navbar css, start of disclaimer css*/
+div.container{
+	margin-top: 15vh;
+	padding: 1rem;
+	background-color: #e5e8ed;
+}
+div.container > h1{
+	text-align: center;
+	font-weight: 600;
+	font-family: 'Quiestrial', sans-serif;
+}
+div.container > p {
+	font-family: 'Quiestrial', sans-serif;
+}
+/*start of social*/
+div.social{
+	background-color: #651F7A;
+	font-size: 30px;
+	padding: 5px 5px;
+	color: #f2f2f2;
+	margin-top: 50px;
+}
+div.social p{
+	margin-bottom: 0;
+	font-family: 'Quiestrial', sans-serif;
+}
+div.social a{
+	text-decoration: none;
+}
+/*start of footer*/
+.footers{
+	background-color: indigo;
+	color: white;
+	padding: 10px 0;
+	text-align: center;
+	font-family: 'Quiestrial', sans-serif;
+}
+.footers p a{
+	text-decoration: none;
+	text-align: center;
+	color: #f2f2f2;
+}

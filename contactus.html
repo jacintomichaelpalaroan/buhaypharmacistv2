@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Contact Us</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="IE-Edge">
+	<link rel="stylesheet" type="text/css" href="./assets/css/contactus.css">
+	<link rel="stylesheet" type="text/css" href="./assets/css/bootstrap.css">
+	<!-- fontawesome -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+	<!-- w3schools framework -->
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	<!-- google font  -->
+	<link href="https://fonts.googleapis.com/css?family=Questrial" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Nunito+Sans" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+	<!-- java script jQuery -->
+	<script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="crossorigin="anonymous"></script>
+	<!-- popper -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+	<!-- bootstrap js -->
+	<script type="text/javascript" src="./assets/js/bootstrap.js"></script>
+	<!-- favicon size 16x16 or 64x64 image is .ico format -->
+	<link rel="shortcut icon" type="image/x-icon" href="./assets/img/favicon.ico">
+	<!-- jquery CDN -->
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+</head>
+<body>
+	<!-- start of nav -->
+	<nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="navbar">
+		<!-- brand -->
+		<a class="navbar-brand" href="./getstarted.html"><img src="./assets/img/favicon.png"> Buhay Pharmacist</a>
+		<!-- end of brand -->
+		<!-- burger -->
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-nav">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<!-- end of burger -->
+		<!-- nav items -->
+		<div class="collapse navbar-collapse" id="navbar-nav">
+			<ul class="navbar-nav ml-auto">
+				<li class="nav-item">
+					<a class="nav-link" href="./getstarted.html">Get Started</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="./schools2.html">Schools</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="./careers2.html">Careers</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="./aboutus.html">About Us</a>
+				</li>
+				<li class="nav-item active">
+					<a class="nav-link" href="./contactus.html">Contact Us</a>
+				</li>
+			</ul>
+		</div>
+		<!-- end of items -->
+	</nav>
+	<!-- end of nav, start of contents -->
+	<div class="container-fluid p-0 clear">
+		<div class="row mx-0">
+			<div class="col col-lg-6 col-md-12 col-sm-12 col-12">
+				<div class="card" id="message">
+					<div class="card-header">
+						<h3 class="card-title">Reach Out</h3>
+						<p class="card-text">
+							Raise your concerns and give us your feedback.
+						</p>
+						<p class="card-text">
+							We will get back to you as soon as we can.
+						</p>
+						<p>
+							Thank you!
+						</p>
+
+					</div>
+					<div class="card-body" id="body">
+						<h3 class="card-title">SEND YOUR MESSAGE HERE</h3>
+						<form>
+							<div class="form-row">
+								<div class="form-group col-md-6 col-sm-12">
+									<label for="firstname">First Name</label>
+									<input type="text" class="form-control" id="firstname" placeholder="First Name" required>
+								</div>
+								<div class="form-group col-md-6 col-sm-12">
+									<label for="lastname">Last Name</label>
+									<input type="text" class="form-control" id="lastname" placeholder="Last Name" required>
+								</div>
+							</div>
+							<div class="form-group">
+								<label for="sex">Sex</label>
+								<div class="custom-control custom-radio custom-control-inline">
+									<input type="radio" id="male" name="sex" class="custom-control-input">
+									<label class="custom-control-label" for="male">Male</label>
+								</div>
+								<div class="custom-control custom-radio custom-control-inline">
+									<input type="radio" id="female" name="sex" class="custom-control-input">
+									<label class="custom-control-label" for="female">Female</label>
+								</div>
+							</div>
+							<div class="form-group">
+								<label for="email">Email address</label>
+								<input type="email" class="form-control" id="email" placeholder="EmailAddress@gmail.com" required>
+								<small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+							</div>
+							<div class="form-group">
+								<label for="subject">Subject</label>
+								<input type="text" class="form-control" id="subject" placeholder="Your Subject" required> 
+							</div>
+							<div class="form-group">
+								<label for="message">Message</label>
+								<textarea class="form-control" id="message" rows="7" placeholder="Your message here..."></textarea>
+							</div>
+							<button type="submit" class="btn w3-round-xxlarge btn-primary">Submit</button>
+						</form>
+					</div>
+				</div>
+			</div>
+			<!-- end of send message card, start of Contact us card -->
+			<div class="col col-lg-6 col-md-12 col-sm-12 col-12">
+				<div class="card" id="contact">
+					<div id="header2" class="card-header clear">
+						<h3 class="card-title">Contact Us</h3>
+						<p class="card-text">
+							Hi there! Reach us at our contact details below.
+						</p>
+						<p class="card-text">
+							Drop by our office regarding your concerns.
+						</p>
+						<p>We're happy to help.</p>
+
+					</div>
+					<div class="card-body" id="body">
+						<p><i class="far fa-envelope"></i> Email Address: buhaypharmacist@gmail.com</p>
+						<p><i class="fas fa-phone-volume"></i> Telephone Number: 473-51-26</p>
+						<p><i class="fas fa-map-marked-alt"></i> Address: 12 ADB Ave, Ortigas Center, Mandaluyong, 1550 Metro Manila</p>
+						<div class="embed-responsive embed-responsive-4by3 clear">
+							<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3819.10769804135!2d121.05745552100183!3d14.584969603654152!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397c816f953ad03%3A0x815f989607823bb8!2sThe+Podium!5e1!3m2!1sen!2sph!4v1537422211125" width="600" height="600" frameborder="0" style="border:0" allowfullscreen></iframe>
+						</div>
+					</div>
+				</div>	
+			</div>
+		</div>
+		<div class="social m-0">
+			<h2>Connect with us</h2>
+			<p class="text-center em-wider">
+				<a href="https://www.facebook.com">
+					<i class="fab fa-facebook-f"></i>
+				</a>
+				<a href="https://www.messenger.com">
+					<i class="fab fa-facebook-messenger"></i>
+				</a>
+				<a href="https://www.twitter.com">
+					<i class="fab fa-twitter"></i>
+				</a>
+			</p>
+		</div>
+	</div>
+	<a href="#" id="back-to-top" class="btn btn-dark btn-lg back-to-top" role="button" title="To top" data-placement="left"><i class="fas fa-angle-up"></i></a>
+	<!-- end of contents and social, start of footer -->
+	<footer class="footers text-inline">
+		<p>
+			JacintoMichaelPalaroan &copy; <a class="inline" href="./disclaimer.html">Disclaimer</a> | <a href="./contactus.html">Contact Us</a>
+		</p>	
+	</footer>
+	<!-- end of footer -->
+	<script type="text/javascript">
+		$(window).scroll(()=>{
+			if ($(window).scrollTop() > 300){
+				$("#back-to-top").fadeIn('fast'); 
+			}else{
+				$("#back-to-top").fadeOut('fast'); 
+
+			}
+		});
+		$("#back-to-top").click(()=>{
+			$("html, body").animate({ scrollTop: 0 }, 500);
+        return false;
+		});
+		
+	</script>
+</body>
+</html> 

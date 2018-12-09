@@ -1,0 +1,107 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+.clear:after{
+	content:"";
+	display:block;
+	clear:both;
+}
+/*end of essential css*/
+.navbar{
+	background-color: indigo;
+	font-family: 'Nunito', sans-serif;
+	font-weight: 700;
+	font-size: 15px;
+}
+.navbar img{
+	height: 20px;
+	width: 20px;
+}
+nav.navbar > div.navbar-collapse{
+	text-align: center;
+}
+
+/*end of navbar, start of body*/
+.schools{
+	margin: 8vh 0 0 0;
+	padding: 8vh 0 0 0;
+}
+.schools > .intro > h1{
+	font-family: 'Questrial', sans-serif;
+	font-weight: 500;
+	font-size: 35px;
+}
+.schools > .intro > p{
+	font-family: 'Questrial', sans-serif;
+	font-size: 20px;
+}
+.row{
+	margin-bottom: 30px;
+}
+.schools > .row > .col >.card{
+	margin-bottom: 20px;
+}
+.schools > .row > .col >.card > .card-header{
+	background-color: indigo;
+	color: white;
+	font-family: 'Questrial', sans-serif;
+}
+.schools > .row > .col >.card > .card-body{
+	background-color: #e5e8ed;
+	color: black;
+	overflow: hidden;
+}
+.schools > .row > .col >.card > .card-body p{
+	font-family: 'Questrial', sans-serif;
+	font-size: 20px;
+}
+body > .schools > .row .card > .card-body > .image{
+	width: 550px;
+	height: 330px;
+	background-color: red;
+	overflow: hidden;
+	margin: 10px auto;
+	padding: 0 0;
+}
+ /*start of social*/
+body > .schools > .social{
+	background-color: #651F7A;
+	font-size: 30px;
+	padding: 5px 5px;
+	color: #f2f2f2;
+	margin-top: 50px;
+}
+.container-fluid > .social p{
+	margin-bottom: 0;
+}
+.container-fluid > .social > p a{
+	text-decoration: none;
+}
+#back-to-top{
+display: inline-block;
+width: 60px;
+height: 60px;
+position: fixed;
+bottom: 20px;
+right: 20px;
+border-radius: 50%;
+font-size: 40px;
+  
+}
+#back-to-top > i{
+	vertical-align: 15px;
+}
+/*start of footer*/
+body > footer > p{
+	background-color: indigo;
+	text-align: center;
+	color: white;
+	padding: 10px;
+	font-family: 'Questrial', sans-serif;
+}
+body > .footers > p > a{
+	text-decoration: none;
+	color: white;
+}

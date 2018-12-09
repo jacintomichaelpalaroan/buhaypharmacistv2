@@ -1,0 +1,113 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+.clear:after{
+	content:"";
+	display:block;
+	clear:both;
+}
+/*end of essential css, start of navbar css*/
+.navbar{
+	background-color: indigo;
+	font-family: 'Nunito', sans-serif;
+	font-weight: 700;
+	font-size: 15px;
+}
+.navbar img{
+	height: 20px;
+	width: 20px;
+}
+nav.navbar > div.navbar-collapse{
+	text-align: center;
+}
+.bodyContent{
+	padding: 15px;
+	height: 95vh;
+	margin: 25px 0 0 0;
+}
+.bodyContent > .carousel > .carousel-inner > .carousel-item h2{
+	color: indigo;
+	text-shadow: 2px 2px 2px white;
+	font-family: 'Questrial', sans-serif;
+	font-size: 35px;
+}
+/*start of header css*/
+.bodyContent > .heading{
+	box-shadow: 2px 2px 5px;
+	padding: 10px 10px;
+	background-color: #651F7A;
+	text-align: center;
+	margin-bottom: 80px;
+}
+.bodyContent > .heading h1{
+	font-size: 4rem;
+	color: white;
+	font-weight: bold;
+	font-family: 'Questrial', sans-serif;
+}
+/*start of paragraph contents css*/
+.bodyContent > .container{
+	background-color: #651F7A;
+	padding: 15px;
+	margin: 20px auto;
+	color: white;
+	border-radius: 5px;
+}
+.bodyContent > .container > .image{
+	float: left;
+	margin: 5px;
+}
+.bodyContent > .container h2{
+	font-family: 'Nunito', sans-serif;
+	font-size: 40px;
+	font-weight: 600;
+}
+.bodyContent > .container p{
+	font-family: 'Questrial', sans-serif;
+	font-size: 20px;
+}
+.bodyContent > .social{
+	background-color: #651F7A;
+	font-size: 30px;
+	padding: 5px 5px;
+	color: #f2f2f2;
+	margin-top: 50px;
+}
+.bodyContent > .social h3{
+	font-family: 'Questrial', sans-serif;
+}
+.bodyContent > .social p{
+	margin-bottom: 0;
+}
+.bodyContent > .social a{
+	text-decoration: none;
+}
+#back-to-top{
+display: inline-block;
+width: 60px;
+height: 60px;
+position: fixed;
+bottom: 20px;
+right: 20px;
+border-radius: 50%;
+font-size: 40px;
+  
+}
+#back-to-top > i{
+	vertical-align: 15px;
+}
+/*start of footer*/
+.footers{
+	background-color: indigo;
+	color: white;
+	padding: 10px 0;
+	text-align: center;
+	font-family: 'Questrial', sans-serif;
+}
+.footers p a{
+	text-decoration: none;
+	text-align: center;
+	color: #f2f2f2;
+}

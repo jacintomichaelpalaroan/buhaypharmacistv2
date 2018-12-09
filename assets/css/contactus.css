@@ -1,0 +1,111 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+.clear:after{
+	content:"";
+	display:block;
+	clear:both;
+}
+/*end of essential css*/
+.navbar{
+	background-color: indigo;
+	font-family: 'Nunito', sans-serif;
+	font-weight: 700;
+	font-size: 15px;
+}
+.navbar img{
+	height: 20px;
+	width: 20px;
+}
+nav.navbar > div.navbar-collapse{
+	text-align: center;
+}
+/*end of navbar*/
+
+.row > .col > .card > div.card-body > div.embed-responsive{
+	height: 600px;
+}
+textarea#message{
+	height:275px;
+}
+.row{
+	margin-top: 50px 0 50px;
+	padding: 50px;
+}
+
+.card{
+	margin-top: 30px;
+}
+
+.row > .col > .card > div.card-header{
+	background-color: indigo;
+	color: white; 
+	font-family: 'Questrial', sans-serif;
+	font-size: 18px;
+}
+.row > .col > .card > div.card-header > h3{
+	font-family: 'Questrial', sans-serif;
+	font-weight: 600;
+}
+.row > .col > .card > div.card-header > p{
+	margin-bottom: 2px;
+	font-family: 'Questrial', sans-serif;
+}
+.row > .col > .card > div.card-body{
+	background-color: #e5e8ed;
+	font-family: 'Questrial', sans-serif;
+	color: black;
+}
+
+.container-fluid > div.social{
+	background-color: #651F7A;
+	font-size: 30px;
+	padding: 5px 5px;
+	color: white;
+	margin-top: 50px;
+	text-align: center;
+	font-family: 'Questrial', sans-serif;
+}
+.container-fluid > .row > div.social a{
+	text-decoration: none;
+}
+#back-to-top{
+display: inline-block;
+width: 60px;
+height: 60px;
+position: fixed;
+bottom: 20px;
+right: 20px;
+border-radius: 50%;
+font-size: 40px;
+  
+}
+#back-to-top > i{
+	vertical-align: 15px;
+}
+/*end of social, start of footer*/
+.footers{
+	background-color: indigo;
+	color: white;
+	padding: 10px 0;
+	text-align: center;
+	font-family: 'Questrial', sans-serif;
+}
+.footers a{
+	text-decoration: none;
+	text-align: center;
+	color: white;
+}
+body .footers a{
+	text-decoration: none;
+	text-align: center;
+	color: white;
+}
+/*end of footer*/
+@media only screen and (max-width: 450px){
+.row{
+	margin: 50px 0 50px;
+	padding: 5px 0;
+}	
