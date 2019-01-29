@@ -60,7 +60,6 @@ nav.navbar > div.navbar-collapse{
 body > .schools > .row .card > .card-body > .image{
 	width: 550px;
 	height: 330px;
-	background-color: red;
 	overflow: hidden;
 	margin: 10px auto;
 	padding: 0 0;
@@ -88,6 +87,7 @@ bottom: 20px;
 right: 20px;
 border-radius: 50%;
 font-size: 40px;
+display: none;
   
 }
 #back-to-top > i{

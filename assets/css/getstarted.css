@@ -66,6 +66,7 @@ body > .container-fluid > .social a{
 }
 #back-to-top{
 display: inline-block;
+display: none;
 width: 60px;
 height: 60px;
 position: fixed;
